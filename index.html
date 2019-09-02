@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <!-- Load the latest version of TensorFlow.js -->
+    <script src="https://unpkg.com/@tensorflow/tfjs"></script>
+    <script src="https://unpkg.com/@tensorflow-models/mobilenet"></script>
+    <script src="https://unpkg.com/@tensorflow-models/knn-classifier"></script>
+  </head>
+  <body>
+    <h1>This is an Image classifier using TensorFlow JS demo.</h1>
+    <p>The demo is running entirely on your browser! How awesome is that.</p>
+    <div id="console"></div>
+    <!-- Add an image that we will use to test -->
+    <p>Please allow webcam access to train and test the image classification model.</p>
+    <video autoplay playsinline muted id="webcam" width="512" height="512"></video>
+    <h2>Add images from webcam to training data by clicking the buttons below:</h2>
+    <button id="class-a">Add A</button>
+    <button id="class-b">Add B</button>
+    <button id="class-c">Add C</button>
+    <button id="class-d">Add No Action</button>
+    <!-- Load index.js after the content of the page -->
+    <script src="index.js"></script>
+  </body>
+</html>
