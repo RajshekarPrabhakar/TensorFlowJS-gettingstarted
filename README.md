@@ -4,17 +4,17 @@ In this code you can build your own Image classifier by traning the model on ima
 Currently this code consists of options to train 4 different classes, which can be easily extended to many more.
 
 # How to run this code?
-1. Just download the two files:
-  a. index.html
-  b. index.js
+1. Just download the two files:</br>
+  a. index.html</br>
+  b. index.js</br>
 2. Open index.html file in one of the modern browsers like Chrome / Firefox
 3. Allow webcam access
 4. Show some object or pose to webcam and click "Add A" button - do this for same pose / object from different angles (5 to 10 images should be enough)
 5. Change the object or pose and click "Add B" button...
 6. Repeat for Add C and Add No Action buttons
-7. The classifier will show 
-    prediction: A (Category)
-    probability: 0.6 (0 to 1)
+7. The classifier will show </br>
+    prediction: A (Category)</br>
+    probability: 0.6 (0 to 1)</br>
 8. If the classifier accuracy is not good, just add more images to those categories with low probability / incorrect.
 
 # Can I save this model and use it later?
